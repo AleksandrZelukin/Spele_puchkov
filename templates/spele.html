@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="static/style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sajaukto burtu spēle</title>
+  </head>
+  <body>
+    <div class= "wrapper">
+      <ul>
+      
+      <a href="/tops"> tops </a>
+      <a href="/noteikumi"> spēles noteikumi </a>
+      <a href="/par"> par </a>
+      </ul>
+    <p class="vards">Sajaukts vārds ir</p>
+
+    <!--satures sajaukto vardu-->
+    <div id="burti"></div>
+
+    <input id="ievadlauks" type="text" style="padding: 30px; font-size: 24px" />
+
+    <button
+      onclick="parbaudit()"
+      id="parbauditBtn"
+      style="padding: 30px; font-size: 24px">
+      
+      Atminēt vārdu
+    </button>
+    <table>
+      <tr>
+        <td class="pareizi">Pareizi</td>
+        <td class="nepareizi">Nepareizi</td>
+      </tr>
+      <tr>
+        <td id="pareizoAtbilzuSkaits"></td>
+        <td id="nePareizoAtbilzuSkaits"></td>
+      </tr>
+    </table>
+    <p>Laiks: <span id="laiks"></span></p>
+    <p>Punkti: <span id="punkti">0</span></p>
+    <div id="rezultati">
+      
+    </div>
+    <script src="static/spele.js">
+      
+    </script>
+    <a href="/"><div class="button1"><i class="fas fa-bullseye"></i>Atgriezties uz sākumlapu</div></a>  
+    <a href="/atsauksmes"><div class="button1"><i class="fas fa-bullseye"></i>Uzraksties atsaukumu</div></a>
+    </div>
+  </body>
+</html>

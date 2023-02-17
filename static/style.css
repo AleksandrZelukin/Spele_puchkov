@@ -1,0 +1,186 @@
+.wrapper 
+{
+    background-color: rgb(103, 164, 228);
+    height: auto;
+    width: auto;
+    padding: 35px; /*otstup s verhu*/
+    font-size: 25px;
+}
+
+table {
+  margin-top: 10px;
+}
+td {
+  border: 1px solid black;
+  padding: 7px;
+}
+
+body {
+  background: rgb(59, 161, 181);
+  font-size: 20px;
+}
+h1 {
+  background: rgb(226, 228, 118);
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  font-size: 20px;
+  color: rgb(8, 13, 8);
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(21, 20, 20);
+}
+#burti {
+  font-size: 48px;/*pole s bukvami*/
+  color: #171617;
+  font-weight: bold;      
+}
+.vards {
+  font-size: 28px;/*tekst nad polrm s bukvsmi*/
+}
+.pareizi {
+  background: rgb(182, 236, 157);
+}
+.nepareizi {
+  background: rgb(235, 77, 71);
+}
+#laiks {
+  padding: 5px;
+  background: #e9dddd;
+}
+#punkti {
+  padding: 5px;
+  background: #e9dddd;
+}
+ul {
+  text-align: center;
+  font-size: 18px;
+}
+li
+{
+    display: inline-block;
+}
+
+.autors{
+    
+    text-align: right;
+    margin: auto;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+
+
+/*knopki*/
+
+  <style>
+    .navbar {
+      position: absolute;
+      width: 900px;
+      height: 30px;
+      left: 15%;
+      top: 5%;
+    }
+
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+
+    .caption span.border {
+      background-color: #111;
+      color: #fff;
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px;
+    }
+
+    h3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      text-align: center;
+      font: 20px "Lato", sans-serif;
+      color: #111;
+    }
+
+    .info1 {
+      color: #777;
+      /*gray color*/
+      background-color: white;
+      text-align: center;
+      padding: 50px 80px;
+
+    }
+
+    .info2 {
+      color: #ddd;
+      background-color: #282E34;
+      /*dark gray  color*/
+      text-align: center;
+      padding: 50px 80px;
+      text-align: justify;
+    }
+
+    .info3 {
+      background-color: white;
+      text-align: center;
+      padding: 50px 80px;
+      text-align: justify;
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.02, #C0C0C0), color-stop(1.0, #D3D3D3));
+      border: 0px solid #000000;
+      padding: 10px;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 12pt;
+      color: #888888;
+      column-count: 2;
+      column-gap: 5px;
+    }
+
+    .button1 {
+      transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+      background-color: #e2e476;
+      border-radius: 5px;
+      border: 0;
+      color: #000000;
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 1em;
+      line-height: 2em;
+      min-width: 7em;
+      text-align: center     text-decoration: none;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 12pt;
+    }
+
+    .button1:hover {
+      background-color: #a6a758;
+      color: #fff !important;
+    }
+
+    .button1:active {
+      background-color: #1eb8fb;
+      color: #000000;
+    }
+
+    .style1 {
+      color: #FF0000
+    }
+  </style>
+
+
+
+
